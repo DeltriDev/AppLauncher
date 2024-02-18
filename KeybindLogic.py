@@ -2,7 +2,7 @@ from pynput import keyboard
 from pynput.keyboard import Key, Listener
 import os
 import sys
-
+from AppLaunch import *
 
 openTheWindow=False #variable for when to launch the window
 defaultKeys=[Key.cmd, Key.ctrl_l, Key.alt_l]
@@ -37,6 +37,8 @@ def OnPress(key): #gets called whenever a key of from the keyboard is pressed
 
     if isKeybindPressed:
         print("open window")
+        LaunchAppsFromText()
+        pressed.clear()
 
 def OnRelease(key): #gets called whenever a key from the keyboard is released
     pressed[key]=False
