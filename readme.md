@@ -15,3 +15,5 @@ add a shortcut of AppLauncher.exe on %AppData%\Microsoft\Windows\Start Menu\Prog
 add a shortcut of any app that is not on the start menu on %AppData%\Microsoft\Windows\Start Menu\Programs for AppLauncher to be able to open them
 
 get the release [here](https://github.com/DeltriDev/AppLauncher/releases/tag/0.1)
+
+<h1>THIS PROJECT IS NO LONGER IN DEVELOPMENT. FELL FREE TO USE ANY OF THE CODE
